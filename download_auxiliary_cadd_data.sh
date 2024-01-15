@@ -2,7 +2,7 @@
 dir=${1}
 
 #Download CADD annotations
-wget -c https://krishna.gs.washington.edu/download/CADD/v1.6/GRCh38/annotationsGRCh38_v1.6.tar.gz -P ${dir}/annotationsGRCh38_v1.6.tar.gz
+wget -c https://krishna.gs.washington.edu/download/CADD/v1.6/GRCh38/annotationsGRCh38_v1.6.tar.gz -P ${dir}/
 
 #Extract data
 tar -xvzf ${dir}/annotationsGRCh38_v1.6.tar.gz
